@@ -1,0 +1,23 @@
+[
+  {
+    "sno": 1,
+    "dname": "Endoscopy",
+    "pname": "UpperGIEndoscopy",
+    "tname": "UIEndo",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 2,
+    "dname": "Laparoscopy",
+    "pname": "EndoLap",
+    "tname": "Appendicitis",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 3,
+    "dname": "Colonoscopy",
+    "pname": "Colono",
+    "tname": "Rapid Colono",
+    "created_on": "25-12-2020"
+  }  
+  ]

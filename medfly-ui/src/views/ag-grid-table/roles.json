@@ -1,0 +1,10 @@
+  [
+  {
+    "sno": 1,
+    "role_name":"Doctor"
+  },
+ {
+    "sno": 2,
+    "role_name":"Assistant"
+  }
+]

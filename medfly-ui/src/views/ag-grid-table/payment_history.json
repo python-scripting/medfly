@@ -1,0 +1,39 @@
+[
+  {
+    "sno": 1,
+    "hosp_name": "Yashoda",
+    "hosp_id":"yas001",
+    "billed_date":"1-1-2021",
+    "invoice_no":"Inv001",
+    "paid_amount":10000,
+    "payment_mode":"NEFT"
+  },
+  {
+    "sno": 2,
+    "hosp_name": "Yashoda",
+    "hosp_id":"yas001",
+    "billed_date":"12-1-2021",
+    "invoice_no":"Inv002",
+    "paid_amount":5000,
+    "payment_mode":"NEFT"
+  },
+  {
+    "sno": 3,
+    "hosp_name": "Yashoda",
+    "hosp_id":"yas001",
+    "billed_date":"22-1-2021",
+    "invoice_no":"Inv003",
+    "paid_amount":7000,
+    "payment_mode":"RTGS"
+  },
+  {
+    "sno": 4,
+    "hosp_name": "Yashoda",
+    "hosp_id":"yas001",
+    "billed_date":"29-1-2021",
+    "invoice_no":"Inv004",
+    "paid_amount":4000,
+    "payment_mode":"CASH"
+  }
+
+  ]

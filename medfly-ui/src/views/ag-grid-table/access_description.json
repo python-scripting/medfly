@@ -1,0 +1,12 @@
+  [
+  {
+    "sno": 1,
+    "function_description":"Allow New Patient Registration",
+    "switch5": false
+  },
+ {
+    "sno": 2,
+    "function_description":"Modify Saved Patient Information",
+    "switch5": true
+  }
+]

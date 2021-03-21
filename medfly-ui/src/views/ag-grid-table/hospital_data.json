@@ -1,0 +1,77 @@
+[
+  {
+    "sno": 1,
+    "name": "Yashoda",
+    "created_on": "25-12-2020",
+    "admin_username":"yashadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"Active"
+  },
+  {
+    "sno": 2,
+    "name": "Apollo",
+    "created_on": "25-12-2020",
+    "admin_username":"apolloadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Licensed",
+    "acc_status":"Active"
+  },
+  {
+    "sno": 3,
+    "name": "Continental",
+    "created_on": "25-12-2020",
+    "admin_username":"continentaladmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"InActive"
+  },
+  {
+    "sno": 4,
+    "name": "MaxCure",
+    "created_on": "25-12-2020",
+    "admin_username":"maxcureadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"Active"
+  },
+  {
+    "sno": 5,
+    "name": "KIMS",
+    "created_on": "25-12-2020",
+    "admin_username":"kimsadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"Active"
+  },
+  {
+    "sno": 6,
+    "name": "MedCure",
+    "created_on": "25-12-2020",
+    "admin_username":"medcureadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"InActive"
+  },
+
+  {
+    "sno": 7,
+    "name": "Fernandez",
+    "created_on": "25-12-2020",
+    "admin_username":"fernadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"Active"
+  },
+  {
+    "sno": 8,
+    "name": "Prime",
+    "created_on": "25-12-2020",
+    "admin_username":"primeadmin",
+    "admin_pwd":"medfly2021",
+    "acc_type":"Demo",
+    "acc_status":"Active"
+  }
+  
+  
+  ]

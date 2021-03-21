@@ -1,0 +1,22 @@
+  [
+  {
+    "sno": 1,
+    "dept_name":"Endoscopy",
+    "user": "Nani",
+    "mobile":"9090909009",
+    "user_username":"nani9090",
+    "user_pwd":"medfly2021",
+    "created_on": "25-12-2020",
+    "status":"Active"
+  },
+ {
+    "sno": 2,
+    "dept_name":"Laparoscopy",
+    "user": "Sunny",
+    "mobile":"7878787878",
+    "user_username":"sunny7878",
+    "user_pwd":"medfly2021",
+    "created_on": "27-12-2020",
+    "status":"InActive"
+  }
+]

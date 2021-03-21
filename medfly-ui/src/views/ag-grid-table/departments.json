@@ -1,0 +1,17 @@
+[
+  {
+    "sno": 1,
+    "name": "Endoscopy",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 2,
+    "name": "Bronchoscopy",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 3,
+    "name": "Laparoscopy",
+    "created_on": "25-12-2020"
+  }  
+  ]

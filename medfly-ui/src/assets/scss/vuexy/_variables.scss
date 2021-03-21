@@ -1,0 +1,197 @@
+/*========================================================================
+    File Name: _variables.scss
+    Description: partial- SCSS varibales
+===========================================================================*/
+
+
+/*========================================================
+        SPACING
+=========================================================*/
+
+$spacer: 2.2rem;
+$spacer-sm: ($spacer / 2);
+$spacer-lg: ($spacer * 2);
+
+
+
+/*========================================================
+        COLORS
+=========================================================*/
+
+$primary: #7367F0;
+$success: #28C76F;
+$danger: #EA5455;
+$warning: #FF9F43;
+$dark: #191819;
+$grey: #b8c2cc;
+$grey-light: #dae1e7;
+$white: #fff;
+$black: #22292f;
+
+
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+
+$font-family-sans-serif:  "Montserrat", Helvetica, Arial, sans-serif !default;
+$font-family-serif:       Georgia, "Times New Roman", Times, serif !default;
+
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+$font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace !default;
+$font-family-base:        $font-family-sans-serif !default;
+
+$font-size-base:          14px !default;
+$font-size-large:         ceil(($font-size-base * 1.25)) !default;
+$font-size-small:         ceil(($font-size-base * 0.85)) !default;
+
+$h1-font-size:                $font-size-base * 2;
+$h2-font-size:                $font-size-base * 1.74;
+$h3-font-size:                $font-size-base * 1.51;
+$h4-font-size:                $font-size-base * 1.32;
+$h5-font-size:                $font-size-base * 1.14;
+$h6-font-size:                $font-size-base;
+
+
+$line-height-base:        1.625rem !default;
+
+$headings-font-family:    inherit !default;
+$headings-font-weight:    500 !default;
+$headings-line-height:    1.2 !default;
+$headings-color:          #2c2c2c;
+$headings-margin-bottom:      ($spacer / 2) !default;
+
+$font-weight-light:           300;
+$font-weight-normal:          400;
+$font-weight-bold:            700;
+
+$font-weight-base:            $font-weight-normal;
+$line-height-base:            1.45;
+
+$content-color: #626262;
+$theme-background: #f8f8f8;
+
+
+/*========================================================
+        TYPOGRAPHY
+=========================================================*/
+
+/*========================================================
+        DARK THEME
+=========================================================*/
+
+$sidebar-dark-bg: #10163a;
+$content-dark-bg: #262c49;
+$dark-card-color: #10163a;
+$table-dark-stripe: #212744;
+$table-light-stripe: #262c49;
+$grid-dark-color: #343661;
+
+$theme-light-dark-bg: #262c49;
+$theme-dark-bg: #10163a;
+$theme-dark-secondary-bg: #171e49;
+$theme-dark-text-color: #c2c6dc;
+$theme-dark-heading-color: #ebeefd;
+// $theme-dark-heading-color: #C9CAD2;
+$theme-dark-border-color: #414561;
+$theme-dark-shadow-color: #0C112E;
+
+[dir=ltr] .vx-input-group .prepend-text:not(.btn-addon), [dir=ltr] .vx-input-group .append-text:not(.btn-addon) {
+    padding-left: 0.3rem;
+    padding-right: 0.12rem;
+}
+
+[dir] .con-img-upload {
+    padding: 0.2rem;
+}
+.con-input-upload {
+    background: #f5f5f5;
+    width: 100px;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 8px;
+    position: relative;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    border: 1px dashed rgba(0,0,0,.1);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin: 0px;
+    }
+
+// top bar height adjustment
+[dir] .vs-navbar.navbar-skelton {
+    padding: .5rem 2.2rem;
+    -webkit-transition: all .5s;
+}
+.content-area-lg .vx-navbar-wrapper {
+    width: calc(100% - 70px);  //80px
+}
+// mini sidebar width
+[dir=ltr] #content-area.content-area-lg {
+    margin-left: 70px;  //80px
+}
+// height for topbar and body adjustment
+[dir] .main-vertical.navbar-sticky .router-content {
+    margin-top: 3.5rem;  //4.5rem
+}
+// width of the body adjustment
+[dir] .router-view {
+    padding: 1rem;  // 2.2rem previous
+}
+
+// sidebar width fixed
+$reduced-sidebar-width: 70px; //80px before
+
+// sidebar icons aligment padding
+[dir] .v-nav-menu .vs-sidebar--item a {
+    -webkit-transition: none;
+    border-radius: 4px;
+    padding: 10px 10px !important; //15px 15px before changed to 10px
+}
+// tabs
+[dir] .vs-tabs-position-left .vs-tabs--li {
+    background:#fefefe;
+}
+
+// sidebar remove or add border-right or left 
+.vs-sidebar-primary .vs-sidebar-item-active {
+    font-weight: 700;
+    background: -webkit-gradient(linear,left top, right top,from(transparent),to(rgba(0,0,0,.01)));
+    background: linear-gradient(90deg,transparent,rgba(0,0,0,.01));
+    border-left: 2px solid rgba(var(--vs-primary),1)!important;
+    border-right:0px !important;
+}
+// vertical tabs li in superadmin and admin 
+[dir] .vs-tabs-position-left .vs-tabs--li {
+    padding: 0rem 0.1rem; // 4.5rem 0.2rem before
+}
+// disabling line for verticala tabs in super admin and admin
+.line-vs-tabs{
+    display:none!important;  // block before
+}
+// adding background to vs-tab vertical li
+.vs-tabs-position-left .activeChild button {
+    background:#dedede; // empty before
+}
+
+// to reduce top navigation bar 
+.vx-navbar-wrapper {
+    background-repeat-x: repeat;
+    z-index: 41001;
+    width: 100%;
+    height: 60px;  //102px before
+    background-repeat-y: no-repeat;
+    top: 0;
+}

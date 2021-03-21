@@ -1,0 +1,49 @@
+[
+  {
+    "sno": 1,
+    "name": "Vaill",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 2,
+    "name": "Nani",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 3,
+    "name": "Kumar",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 4,
+    "name": "Sunni",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 5,
+    "name": "Dunni",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 6,
+    "name": "Munni",
+    "created_on": "25-12-2020"
+  },
+
+  {
+    "sno": 7,
+    "name": "Kunni",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 8,
+    "name": "Kunni",
+    "created_on": "25-12-2020"
+  },
+  {
+    "sno": 9,
+    "name": "Kunni",
+    "created_on": "25-12-2020"
+  }
+  
+  ]
